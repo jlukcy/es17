@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: es17
+  host: es17
+  disk_quota: 1024M
+  services:
+  - Conversation-ou
